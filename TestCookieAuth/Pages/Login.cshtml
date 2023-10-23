@@ -1,0 +1,31 @@
+﻿@page
+@model TestCookieAuth.Pages.LoginModel
+@{
+}
+
+
+
+
+<form id="form" method="post">
+
+
+
+    <div class="form-group">
+        <input style="padding-left:40px" name="txtUsername" id="txtUsername" class="form-control item" placeholder="Username" required>
+    </div>
+
+    <div class="form-group">
+        <input type="password" style="padding-left:40px" name="txtPassword" id="txtPassword" class="form-control item" placeholder="Password" required>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" style="font-family: 'YBakh'" id="btnEnter" value="Enter" class="btn btn-block create-account">Enter</button>
+
+    </div>
+    @*<div class="form-group d-md-flex">
+            <div class="text-md-right">
+                <a style="color:black" href="#">Forget your Password?</a>
+            </div>
+        </div>*@
+
+</form>
